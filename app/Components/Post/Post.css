@@ -1,0 +1,15 @@
+.sq-8 {
+  @apply h-8;
+  @apply w-8;
+}
+
+.flex-align-center {
+  @apply flex;
+  @apply items-center;
+  @apply gap-2;
+}
+
+.transition-300 {
+  @apply transition-all;
+  @apply duration-300;
+}

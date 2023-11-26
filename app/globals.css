@@ -26,7 +26,15 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-.selected {
-  font-weight: 800;
-  color: rgb(255 255 255);
+.div-center {
+  @apply flex;
+  @apply items-center;
+  @apply justify-center;
+}
+
+.rounded-center {
+  @apply rounded-full;
+  @apply flex;
+  @apply items-center;
+  @apply justify-center;
 }
