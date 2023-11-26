@@ -13,7 +13,7 @@ import Link from 'next/link';
 
 const Sidebar = () => {
   return (
-    <div className='flex[0.1] xl:flex-[0.25] border-r border-white/20'>
+    <div className='xl:min-w-[288px] fixed h-screen'>
       <div className='flex flex-col justify-between h-full mx-auto max-w-[240px]'>
         <div>
           <Link href={'/home'}>
@@ -36,7 +36,7 @@ const Sidebar = () => {
           <SidebarItem Icon={FaRegUser} optionName='profile' />
 
           {/* Post Button */}
-          <div className='flex justify-center bg-[#1DA1F2] max-w-max xl:max-w-[240px] mx-auto my-6 rounded-full p-3 font-bold hover:bg-[#1d92f2] hover:transition-all cursor-pointer'>
+          <div className='flex justify-center bg-primary max-w-max xl:max-w-[240px] mx-auto my-6 rounded-full p-3 font-bold hover:bg-[#1d92f2] hover:transition-all cursor-pointer'>
             <p className='hidden xl:inline'>Post</p>
             <span className='xl:hidden'>
               <FaPlus size={20} />

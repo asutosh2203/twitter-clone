@@ -10,7 +10,7 @@ const SidebarItem: React.FC<{
     <Link
       href={`/${optionName}`}
       className={`flex max-w-max xl:max-w-[240px] mx-auto items-center gap-4 my-1 rounded-full p-3 text-xl hover:bg-[#22222294] hover:transition-all cursor-pointer text-white/80 ${
-        selected && 'selected'
+        selected && 'font-extrabold text-white'
       }`}
     >
       <Icon size={25} />
